@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 992px){
+    .nav-menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center ;
+        /* border: 2px solid red; */
+        width: 100%;
+        margin: 1em 0em 0.5em 0em;
+        padding: 0em 1em;
+
+        svg{
+            border-radius: 50px;
+        }
+
+        svg:hover{
+            cursor: pointer;
+        }
+
+    }
+
+    #nav-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        /* Smooth transition styles */
+        max-height: 0; /* Initially hidden */
+        overflow: hidden;
+        opacity: 0;
+        transform: scaleY(0);
+        transform-origin: top;
+        transition: max-height 0.3s ease, opacity 0.3s ease, transform 0.3s ease;
+      
+        #nav-ul {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5em;
+        } */
+      
+        #logo {
+          gap: 0.5em;
+        }
+      
+      
+        #help {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          /* border: 2px solid red; */
+        }
+      }
+      
+      #nav-bar.active {
+        max-height: 500px; /* Adjust to fit your content */
+        opacity: 1;
+        transform: scaleY(1);
+      }
+      
+    /* BELOW NAVIGATION BAR */
+
+    #laptops-companies-parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+    #laptops-label{
+        display: flex;
+    }
+
+    #laptops-menu{
+        display: flex;
+    }
+
+    #laptops-parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .filter{
+        display: none;
+    }
+
+    .laptop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+    }
+    #footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+
+        div{
+            text-align: center;
+        }
+    }
+    #web-end{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2em;
+
+        p{
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,658 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/a19de92425.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!-- OFFER / DELIVERY ETC -->
+     <div class="flex justify-center items-center bg-black text-white py-2">
+        <p class="px-4">DELIVERY SERVICE ALL OVER PAKISTAN</p>
+        <img class="size-8" src="./imgs/flag.png" alt="Pak-flag">
+     </div>
+
+     <div class="nav-menu hidden">
+        <p class="w-64">
+            <strong>OFFICE :</strong> Laptop Mart & Electronics, Shop # 1, Indus Tower, Ghanta Ghar, Multan
+        </p>
+        <svg id="nav-burger" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#00000"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
+     </div>
+
+     <nav id="nav-bar" class="flex p-4 pb-0">
+
+        <a id="logo" class="mx-2" href="#"><img class="size-24 rounded-full mx-2" src="./imgs/logo.png" alt="company-logo"></a>
+
+        <ul id="nav-ul" class=" w-9/12 p-4 flex justify-center items-center relative">
+            <!-- Home Link -->
+            <a class="hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 border-b-2 border-white" href="#">Home</a>
+        
+            <!-- Categories with Dropdown -->
+            <div id="drop-down" class="relative group">
+                <a class="hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 flex items-center border-b-2 border-white cursor-pointer">
+                    Categories
+                    <!-- SVG Icon -->
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7 10L12 15L17 10" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+                <!-- Dropdown -->
+                <ul class="hidden absolute left-0 mt-0 bg-white border border-gray-300 shadow-md rounded-md w-40 z-10">
+                    <a href="#" class="flex px-4 py-2 hover:bg-gray-200">
+                        <p>Laptops</p>
+                    </a>
+                    <a href="#" class="flex px-4 py-2 hover:bg-gray-200">
+                        <p>Accessories</p>
+                    </a>
+                    <a href="#" class="flex px-4 py-2 hover:bg-gray-200">
+                        <p>Bags</p>
+                    </a>
+                </ul>
+            </div>
+        
+            <!-- Other Links -->
+            <a class="hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 border-b-2 border-white" href="#">Our Location</a>
+            <a class="hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 border-b-2 border-white" href="#">About Us</a>
+        </ul>
+        
+        <div id="help" class=" flex flex-col flex-nowrap justify-center items-center p-4 mx-2 w-3/12">
+            <div class="flex flex-row flex-nowrap">
+                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17 12C19.7614 12 22 9.76142 22 7C22 4.23858 19.7614 2 17 2C14.2386 2 12 4.23858 12 7C12 7.79984 12.1878 8.55582 12.5217 9.22624C12.6105 9.4044 12.64 9.60803 12.5886 9.80031L12.2908 10.9133C12.1615 11.3965 12.6035 11.8385 13.0867 11.7092L14.1997 11.4114C14.392 11.36 14.5956 11.3895 14.7738 11.4783C15.4442 11.8122 16.2002 12 17 12Z" stroke="#003F85" stroke-width="1.5"/>
+                <path d="M14.1007 16.0272L13.5569 15.5107L14.1007 16.0272ZM14.5562 15.5477L15.1 16.0642H15.1L14.5562 15.5477ZM16.9728 15.2123L16.5987 15.8623H16.5987L16.9728 15.2123ZM18.8833 16.312L18.5092 16.962L18.8833 16.312ZM19.4217 19.7584L19.9655 20.2749L19.4217 19.7584ZM18.0011 21.254L17.4573 20.7375L18.0011 21.254ZM16.6763 21.9631L16.7499 22.7095L16.6763 21.9631ZM6.81536 17.4752L7.35915 16.9587L6.81536 17.4752ZM2.00289 7.96594L1.25397 8.00613L1.25397 8.00613L2.00289 7.96594ZM8.47752 9.50311L9.02131 10.0196H9.02131L8.47752 9.50311ZM8.63424 6.6931L9.24664 6.26012L8.63424 6.6931ZM7.37326 4.90961L6.76086 5.3426V5.3426L7.37326 4.90961ZM4.26145 4.60864L4.80524 5.12516L4.26145 4.60864ZM2.69185 6.26114L2.14806 5.74462L2.14806 5.74462L2.69185 6.26114ZM10.0631 14.0559L10.6069 13.5394L10.0631 14.0559ZM14.6445 16.5437L15.1 16.0642L14.0124 15.0312L13.5569 15.5107L14.6445 16.5437ZM16.5987 15.8623L18.5092 16.962L19.2575 15.662L17.347 14.5623L16.5987 15.8623ZM18.8779 19.2419L17.4573 20.7375L18.5449 21.7705L19.9655 20.2749L18.8779 19.2419ZM16.6026 21.2167C15.1676 21.3584 11.4233 21.2375 7.35915 16.9587L6.27157 17.9917C10.7009 22.655 14.9261 22.8895 16.7499 22.7095L16.6026 21.2167ZM7.35915 16.9587C3.48303 12.8778 2.83285 9.43556 2.75181 7.92574L1.25397 8.00613C1.35322 9.85536 2.1384 13.6403 6.27157 17.9917L7.35915 16.9587ZM8.7345 10.3216L9.02131 10.0196L7.93372 8.9866L7.64691 9.28856L8.7345 10.3216ZM9.24664 6.26012L7.98565 4.47663L6.76086 5.3426L8.02185 7.12608L9.24664 6.26012ZM3.71766 4.09213L2.14806 5.74462L3.23564 6.77765L4.80524 5.12516L3.71766 4.09213ZM8.1907 9.80507C7.64691 9.28856 7.64622 9.28929 7.64552 9.29002C7.64528 9.29028 7.64458 9.29102 7.64411 9.29152C7.64316 9.29254 7.64219 9.29357 7.64121 9.29463C7.63924 9.29675 7.6372 9.29896 7.6351 9.30127C7.63091 9.30588 7.62646 9.31087 7.62178 9.31625C7.61243 9.32701 7.60215 9.33931 7.59116 9.3532C7.56918 9.38098 7.54431 9.41512 7.51822 9.45588C7.46591 9.53764 7.40917 9.64531 7.36112 9.78033C7.26342 10.0549 7.21018 10.4185 7.27671 10.8726C7.40742 11.7647 7.99198 12.9644 9.51933 14.5724L10.6069 13.5394C9.17926 12.0363 8.82761 11.1106 8.76086 10.6551C8.72866 10.4354 8.76138 10.3196 8.77432 10.2832C8.78159 10.2628 8.78635 10.2571 8.78169 10.2644C8.77944 10.2679 8.77494 10.2745 8.76738 10.2841C8.76359 10.2888 8.75904 10.2944 8.7536 10.3006C8.75088 10.3038 8.74793 10.3071 8.74476 10.3106C8.74317 10.3123 8.74152 10.3141 8.73981 10.3159C8.73896 10.3169 8.73809 10.3178 8.7372 10.3187C8.73676 10.3192 8.73608 10.3199 8.73586 10.3202C8.73518 10.3209 8.7345 10.3216 8.1907 9.80507ZM9.51933 14.5724C11.0422 16.1757 12.1923 16.806 13.0698 16.9485C13.5201 17.0216 13.8846 16.9632 14.1606 16.8544C14.2955 16.8012 14.4022 16.7387 14.4823 16.6819C14.5223 16.6535 14.5556 16.6266 14.5824 16.6031C14.5959 16.5913 14.6077 16.5803 14.618 16.5703C14.6232 16.5654 14.628 16.5606 14.6324 16.5562C14.6346 16.554 14.6367 16.5518 14.6387 16.5497C14.6397 16.5487 14.6407 16.5477 14.6417 16.5467C14.6422 16.5462 14.6429 16.5454 14.6431 16.5452C14.6438 16.5444 14.6445 16.5437 14.1007 16.0272C13.5569 15.5107 13.5576 15.51 13.5583 15.5093C13.5585 15.509 13.5592 15.5083 13.5596 15.5078C13.5605 15.5069 13.5614 15.506 13.5623 15.5051C13.5641 15.5033 13.5658 15.5015 13.5674 15.4998C13.5708 15.4965 13.574 15.4933 13.577 15.4904C13.583 15.4846 13.5885 15.4796 13.5933 15.4754C13.6028 15.467 13.6099 15.4616 13.6145 15.4584C13.6239 15.4517 13.6229 15.454 13.6102 15.459C13.5909 15.4666 13.5 15.4987 13.3103 15.4679C12.9077 15.4025 12.0391 15.0472 10.6069 13.5394L9.51933 14.5724ZM7.98565 4.47663C6.97206 3.04305 4.94384 2.80119 3.71766 4.09213L4.80524 5.12516C5.32808 4.57471 6.24851 4.61795 6.76086 5.3426L7.98565 4.47663ZM2.75181 7.92574C2.73038 7.52644 2.90425 7.12654 3.23564 6.77765L2.14806 5.74462C1.61221 6.30877 1.20493 7.09246 1.25397 8.00613L2.75181 7.92574ZM17.4573 20.7375C17.1783 21.0313 16.8864 21.1887 16.6026 21.2167L16.7499 22.7095C17.497 22.6357 18.1016 22.2373 18.5449 21.7705L17.4573 20.7375ZM9.02131 10.0196C9.98889 9.00095 10.0574 7.40678 9.24664 6.26012L8.02185 7.12608C8.44399 7.72315 8.37926 8.51753 7.93372 8.9866L9.02131 10.0196ZM18.5092 16.962C19.33 17.4345 19.4907 18.5968 18.8779 19.2419L19.9655 20.2749C21.2704 18.901 20.8904 16.6019 19.2575 15.662L18.5092 16.962ZM15.1 16.0642C15.4854 15.6584 16.086 15.5672 16.5987 15.8623L17.347 14.5623C16.2485 13.93 14.8861 14.1113 14.0124 15.0312L15.1 16.0642Z" fill="#003F85"/>
+                </svg>
+                <p class="px-2 flex flex-nowrap ">Need Help Call CEO?</p>
+            </div>
+            <a class="hover:underline text-blue-600" href="https://wa.link/laptopmartmultan">Click Here</a>
+        </div>           
+    </nav>
+
+    <hr class="border-black my-4">
+
+    <!-- MAIN STARTING -->
+     <main>
+
+                <!-- HIDDEN MENU - COMPANIES -->
+                <div id="laptops-companies-parent" class="">
+                    <label id="laptops-label" class="hidden" for="laptops">CHOOSE COMPANY</label>
+                    <select class="hidden" id="laptops-menu" name="laptops">
+                      <option value="ASUS">
+                        <a href="#">ASUS</a> 
+                      </option>
+                      <option value="DELL">
+                        <a href="#">DELL</a>
+                      </option>
+                      <option value="APPLE">
+                        <a href="#">APPLE</a>
+                      </option>
+                      <option value="ACER">
+                        <a href="#">ACER</a>
+                      </option>
+                      <option value="HP">
+                        <a href="#">HP</a>
+                      </option>
+                      <option value="LENOVO">
+                        <a href="#">LENOVO</a>
+                      </option>
+                      <option value="MICROSOFT">
+                        <a href="#">MICROSOFT</a>
+                      </option>
+                    </select>
+                </div>
+
+        <!-- TOP DIV / COMPANIES -->
+        <div class="filter flex justify-evenly items-center p-4">
+
+            <!-- ASUS -->
+
+            <a class="group hover:bg-slate-300 w-fit bg-bgBlue p-4 rounded-full shadow-md" href="#" title="Asus Laptops">
+                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <svg class="group-hover:fill-black" fill="#ffffff" width="32px" height="32px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M23.904 10.788V9.522h-4.656c-.972 0-1.41.6-1.482 1.182v.018-1.2h-1.368v1.266h1.362zm-6.144.456-1.368-.078v1.458c0 .456-.228.594-1.02.594H14.28c-.654 0-.93-.186-.93-.594v-1.596l-1.386-.102v1.812h-.03c-.078-.528-.276-1.14-1.596-1.23L6 11.22c0 .666.474 1.062 1.218 1.14l3.024.306c.24.018.414.09.414.288 0 .216-.18.24-.456.24H5.946V11.22l-1.386-.09v3.348h5.646c1.26 0 1.662-.654 1.722-1.2h.03c.156.864.912 1.2 2.19 1.2h1.41c1.494 0 2.202-.456 2.202-1.524zm4.398.258-4.338-.258c0 .666.438 1.11 1.182 1.17l3.09.24c.24.018.384.078.384.276 0 .186-.168.258-.516.258h-4.212v1.29h4.302c1.356 0 1.95-.474 1.95-1.554 0-.972-.534-1.338-1.842-1.422zm-10.194-1.98h1.386v1.266h-1.386zM3.798 11.07l-1.506-.15L0 14.478h1.686zm7.914-1.548h-4.23c-.984 0-1.416.612-1.518 1.2v-1.2H3.618c-.33 0-.486.102-.642.33l-.648.936h9.384z"/></svg>
+            </a> 
+
+            <!-- DELL -->
+
+            <a class="group hover:bg-slate-300 w-fit bg-bgBlue p-4 rounded-full shadow-md" href="#" title="Dell Laptops">
+                <svg width="32px" height="32px" viewBox="16.548 14.778 463.846 463.846" xmlns="http://www.w3.org/2000/svg">
+
+                    <g class="group-hover:fill-black" fill="#ffffff">
+                    
+                    <path d="M241.281 15.478h14.379C325.601 19.422 375.469 45.98 412.44 83.2c36.972 37.22 64.301 86.31 67.953 156.548v13.915c-3.551 71.361-31.363 118.459-67.953 156.78-38.437 36.4-85.688 63.979-157.012 67.488h-14.147c-69.932-3.952-119.809-30.499-156.78-67.721C47.53 372.99 20.2 323.901 16.548 253.663v-13.915c.182-.051.271-.194.232-.464 3.497-69.97 30.976-119.57 67.722-156.316 36.915-36.917 87.3-63.665 156.779-67.49zm-45.457 33.165c-13.78 3.69-26.138 8.376-37.339 13.915-34.094 16.859-62.21 40.979-81.869 71.896-19.188 30.178-35.802 68.999-33.396 119.904 1.517 32.093 8.84 59.089 20.408 82.101 22.845 45.437 57.625 78.916 105.758 99.264 23.802 10.062 53.295 17.12 86.507 15.538 31.857-1.517 59.462-8.678 82.333-20.177 44.824-22.538 80.149-57.312 99.728-105.293 9.902-24.271 17.39-52.31 15.771-86.276-3.064-64.343-29.237-107.971-63.778-141.241-17.091-16.462-37.671-30.465-61.923-40.586-23.531-9.82-54.164-17.101-86.972-15.539-16.129.768-31.344 2.776-45.228 6.494z"/>
+                    
+                    <path d="M227.135 186.637c7.348 4.866 14.864 9.565 21.801 14.843-15.671 9.84-31.034 19.989-46.616 29.918 2.366 1.809 5.056 3.293 7.421 5.102 15.712-9.954 31.429-19.902 47.081-29.918 7.02 4.345 13.931 8.798 20.41 13.684-15.684 9.906-30.842 20.336-46.385 30.381 2.303 1.873 5.126 3.224 7.652 4.871 16.065-9.833 31.73-20.066 47.544-30.149v-32.934h34.789v65.635c9.817.54 20.642.077 30.847.23v30.847h-65.636v-31.311c-19.284 11.716-39.046 24.965-58.444 37.34-20.201-13.117-39.67-26.97-59.836-40.122-5.842 18.517-19.717 32.447-42.675 34.093-14.318 1.024-30.588-.765-47.08 0v-96.712c20.618 1.366 43.258-2.757 59.604 2.319 14.453 4.489 24.7 16.021 29.454 30.382 20.181-12.675 40.038-25.672 60.069-38.499zm-115.963 36.876v34.788c8.287.041 14.59.522 19.481-3.246 7.277-5.605 8.743-19.5 2.319-26.904-4.287-4.94-11.525-5.977-21.569-5.334-.268.039-.251.367-.231.696zM360.722 192.435h34.788v65.866h30.614v30.847h-65.636v-96.017c-.018-.329-.037-.657.234-.696z"/>
+                    
+                    </g>
+                    
+                    </svg>
+            </a>
+
+            <!-- APPLE -->
+
+            <a class="group hover:bg-slate-300 w-fit bg-bgBlue p-4 rounded-full shadow-md" href="#" title="Apple Laptops (Macbooks)">
+                <svg width="32px" height="32px" viewBox="-1.5 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    
+                    <desc>Created with Sketch.</desc>
+                    <defs>
+                
+                </defs>
+                    <g id="Page-1" stroke="none" stroke-width="1"  fill="none" fill-rule="evenodd">
+                        <g id="Dribbble-Light-Preview" transform="translate(-102.000000, -7439.000000)" class="group-hover:fill-black" fill="#ffffff">
+                            <g id="icons" transform="translate(56.000000, 160.000000)">
+                                <path d="M57.5708873,7282.19296 C58.2999598,7281.34797 58.7914012,7280.17098 58.6569121,7279 C57.6062792,7279.04 56.3352055,7279.67099 55.5818643,7280.51498 C54.905374,7281.26397 54.3148354,7282.46095 54.4735932,7283.60894 C55.6455696,7283.69593 56.8418148,7283.03894 57.5708873,7282.19296 M60.1989864,7289.62485 C60.2283111,7292.65181 62.9696641,7293.65879 63,7293.67179 C62.9777537,7293.74279 62.562152,7295.10677 61.5560117,7296.51675 C60.6853718,7297.73474 59.7823735,7298.94772 58.3596204,7298.97372 C56.9621472,7298.99872 56.5121648,7298.17973 54.9134635,7298.17973 C53.3157735,7298.17973 52.8162425,7298.94772 51.4935978,7298.99872 C50.1203933,7299.04772 49.0738052,7297.68074 48.197098,7296.46676 C46.4032359,7293.98379 45.0330649,7289.44985 46.8734421,7286.3899 C47.7875635,7284.87092 49.4206455,7283.90793 51.1942837,7283.88393 C52.5422083,7283.85893 53.8153044,7284.75292 54.6394294,7284.75292 C55.4635543,7284.75292 57.0106846,7283.67793 58.6366882,7283.83593 C59.3172232,7283.86293 61.2283842,7284.09893 62.4549652,7285.8199 C62.355868,7285.8789 60.1747177,7287.09489 60.1989864,7289.62485" id="apple-[#173]">
+                
+                </path>
+                            </g>
+                        </g>
+                    </g>
+                </svg>
+            </a>
+
+            <!-- ACER -->
+
+            <a class="group hover:bg-slate-300 w-fit bg-bgBlue p-4 rounded-full shadow-md" href="#" title="Acer Laptops">
+                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <svg class="group-hover:fill-black" fill="#ffffff" width="32px" height="32px" viewBox="0 0 24 24" role="img" xmlns="http://www.w3.org/2000/svg"><path d="M23.943 9.364c-.085-.113-.17-.198-.595-.226-.113 0-.453-.029-1.048-.029-1.56 0-2.636.482-3.175 1.417.142-.935-.765-1.417-2.749-1.417-2.324 0-3.798.935-4.393 2.834-.226.709-.226 1.276-.056 1.73h-.567c-.425.027-.992.056-1.36.056-.85 0-1.39-.142-1.588-.425-.17-.255-.17-.737.057-1.446.368-1.162 1.247-1.672 2.664-1.672.737 0 1.445.085 1.445.085.085 0 .142-.113.142-.198l-.028-.085-.057-.397c-.028-.255-.227-.397-.567-.453-.311-.029-.567-.029-.907-.029h-.028c-1.842 0-3.146.624-3.854 1.814.255-1.219-.596-1.814-2.551-1.814-1.105 0-1.9.029-2.353.085-.368.057-.595.199-.68.454l-.17.51c-.028.085.029.142.142.142.085 0 .425-.057.992-.086a24.816 24.816 0 0 1 1.672-.085c1.077 0 1.559.284 1.389.822-.029.114-.114.199-.255.227-1.02.17-1.842.284-2.438.369-1.7.226-2.692.736-2.947 1.587-.369 1.162.538 1.728 2.72 1.728 1.078 0 2.013-.056 2.75-.198.425-.085.652-.17.737-.453l.396-1.304c-.028 1.304.85 1.955 2.721 1.955.794 0 1.559-.028 1.927-.085.369-.056.567-.141.652-.425l.085-.396c.397.623 1.276.935 2.608.935 1.417 0 2.239-.029 2.465-.114a.523.523 0 0 0 .369-.311l.028-.085.17-.539c.029-.085-.028-.142-.142-.142l-.906.057c-.596.029-1.077.057-1.418.057-.651 0-1.076-.057-1.332-.142-.368-.142-.538-.397-.51-.822l2.863-.368c1.275-.17 2.154-.567 2.579-1.19l-.992 3.315c-.028.057 0 .114.028.142.029.028.085.057.199.057h1.19c.198 0 .283-.114.312-.199l1.048-3.656c.142-.481.567-.708 1.36-.708.71 0 1.22 0 1.56.028h.028c.057 0 .17-.028.255-.17l.17-.51c0-.085 0-.17-.057-.227zM4.841 13.73c-.368.057-.907.085-1.587.085-1.219 0-1.729-.255-1.587-.737.113-.34.425-.567.935-.624l2.75-.368zm12.669-2.95c-.114.369-.652.624-1.616.766l-2.295.311.056-.198c.199-.624.454-1.02.794-1.247.34-.227.907-.34 1.7-.34 1.05.028 1.503.255 1.36.708z"/></svg>
+            </a>
+
+            <!-- HP -->
+
+            <a class="group hover:bg-slate-300 w-fit bg-bgBlue p-4 rounded-full shadow-md" href="#" title="Hp Laptops">
+                <svg class="group-hover:fill-black" viewBox="0.85 0.85 431.99799999999993 432" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#ffffff"><path d="M216.85 432.85c-2.147 0-4.285-.038-6.42-.1l44.144-121.318h60.75c10.663 0 22.368-8.197 26.015-18.212l47.89-131.546c7.836-21.537-4.5-39.157-27.417-39.157h-84.28L206.82 316.833h-.027l-40.09 110.153C71.594 404.376.85 318.878.85 216.85c0-99.085 66.72-182.58 157.683-208.026l-41.365 113.693h-.012L48.39 311.432l45.777.004 58.48-160.53h34.405l-58.48 160.53 45.76.008 54.498-149.77c7.84-21.537-4.497-39.157-27.393-39.157h-38.48L207.14 1.077c3.22-.143 6.454-.227 9.708-.227 119.294 0 216 96.706 216 216 0 119.293-96.706 216-216 216zm130.692-282.06h-34.395L264.98 282.948h34.396z"/></svg>
+            </a>
+
+            <!-- Lenovo -->
+
+            <a class="group hover:bg-slate-300 w-fit bg-bgBlue p-4 rounded-full shadow-md" href="#" title="Lenovo Laptops">
+                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <svg class="group-hover:fill-black" fill="#ffffff" width="32px" height="32px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                <path d="M27.005 15.229c-0.63-0.005-1.13 0.526-1.089 1.151-0.021 0.63 0.479 1.151 1.104 1.156 0.63 0.005 1.125-0.526 1.089-1.156 0.021-0.625-0.479-1.146-1.104-1.151zM18.323 15.229c-0.625-0.005-1.13 0.526-1.083 1.151-0.021 0.63 0.474 1.151 1.104 1.156 0.625 0.005 1.125-0.526 1.083-1.156 0.021-0.625-0.474-1.146-1.104-1.151zM8.979 15.156c-0.339-0.010-0.661 0.141-0.87 0.411-0.203 0.286-0.286 0.635-0.229 0.979l1.969-0.813c-0.146-0.349-0.49-0.578-0.87-0.578zM0 10.667v10.667h32v-10.667zM6.677 18.438h-3.708v-5.333h1.146v4.297h2.563zM9.099 17.609c0.432 0.005 0.854-0.146 1.177-0.438l0.714 0.547c-0.51 0.505-1.193 0.786-1.911 0.786-1.224 0.12-2.297-0.823-2.333-2.052-0.036-1.234 0.979-2.234 2.214-2.188 0.609-0.031 1.203 0.214 1.62 0.667 0.271 0.328 0.443 0.724 0.495 1.146l-2.885 1.203c0.245 0.224 0.573 0.344 0.911 0.328zM15.609 18.438h-1.13v-2.339c-0.016-0.5-0.443-0.891-0.948-0.865-0.5-0.031-0.927 0.365-0.932 0.865v2.339h-1.125v-4.109h1.13v0.589c0.318-0.411 0.813-0.651 1.333-0.656 0.927-0.052 1.698 0.703 1.667 1.63zM18.255 18.505c-1.87-0.078-2.734-2.359-1.38-3.656 1.349-1.292 3.594-0.339 3.594 1.531-0.005 1.208-1.010 2.172-2.214 2.125zM21.984 18.432l-1.688-4.104h1.286l1.021 2.802 1.021-2.802h1.286l-1.693 4.104zM26.932 18.505c-1.865-0.078-2.729-2.359-1.38-3.656 1.354-1.292 3.594-0.339 3.594 1.531-0.005 1.208-1.005 2.172-2.214 2.125zM29.599 17.948h-0.188v0.49h-0.109v-0.49h-0.182v-0.104h0.479zM30.323 18.438h-0.109v-0.422l-0.182 0.286h-0.016l-0.182-0.286v0.422h-0.109v-0.594h0.12l0.177 0.281 0.177-0.281h0.12z"/>
+                </svg>
+            </a>
+
+            <!-- Microsoft -->
+
+            <a class="group hover:bg-slate-300 w-fit bg-bgBlue p-4 rounded-full shadow-md" href="#" title="Microsoft Laptops">
+                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <svg width="32px" height="32px" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect  class="group-hover:fill-black" x="17" y="17" width="10" height="10" fill="#FEBA08"/>
+                <rect  class="group-hover:fill-black" x="5" y="17" width="10" height="10" fill="#05A6F0"/>
+                <rect  class="group-hover:fill-black" x="17" y="5" width="10" height="10" fill="#80BC06"/>
+                <rect  class="group-hover:fill-black" x="5" y="5" width="10" height="10" fill="#F25325"/>
+                </svg>
+            </a>
+
+        </div>
+
+        <hr class="border-black my-4">
+
+        <!-- HIDDEN MENU -->
+        <div id="laptops-parent">
+            <label id="laptops-label" class="hidden" for="laptops">CHOOSE FILTER</label>
+            <select class="hidden" id="laptops-menu" name="laptops">
+              <option value="PREMIUM_LAPTOPS">
+                <a href="#">PREMIUM LAPTOPS</a>
+              </option>
+              <option value="PREMIUM_LAPTOPS">
+                <a href="#">LAPTOPS BELOW 50K /-</a>
+              </option>
+              <option value="PREMIUM_LAPTOPS">
+                <a href="#">LAPTOPS BELOW 100K /-</a>
+              </option>
+              <option value="PREMIUM_LAPTOPS">
+                <a href="#">LAPTOPS BELOW 200K /-</a>
+              </option>
+            </select>
+        </div>
+
+        <!-- Premium Laptops -->
+         <div class="filter flex flex-col">
+
+            <h1 class=" p-4 flex justify-start items-center ">
+                <p>PREMIUM LAPTOPS</p>
+                <button class="group hover:bg-blue-300 toggleButton bg-bgBlue rounded-md mx-2" title="Show">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg  width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:stroke-bgBlue" d="M7 10L12 15L17 10" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <p class="ml-4">LAPTOPS BELOW Rs. 50,000 /-</p>
+                <button class="group hover:bg-blue-300 toggleButton bg-bgBlue rounded-md mx-2" title="Show">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:stroke-bgBlue" d="M7 10L12 15L17 10" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <p class="ml-4">LAPTOPS BELOW Rs. 100,000 /-</p>
+                <button class="group hover:bg-blue-300 toggleButton bg-bgBlue rounded-md mx-2" title="Show">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:stroke-bgBlue" d="M7 10L12 15L17 10" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <p class="ml-4">LAPTOPS BELOW Rs. 200,000 /-</p>
+                <button class="group hover:bg-blue-300 toggleButton bg-bgBlue rounded-md mx-2" title="Show">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path class="group-hover:stroke-bgBlue" d="M7 10L12 15L17 10" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <!-- REQUEST FOR A LAPTOP -->
+                <button class="toggleButton group hover:bg-slate-300 bg-bgBlue rounded-md ml-4 p-2" title="Request for a laptop">
+                    <p class="group-hover:text-black text-white mx-4">Request for laptop ?</p>
+                </button>
+            </h1>
+
+                <!-- Hidden paragraph NO 1-->
+                <div class="toggleParagraph flex flex-wrap p-4  ">
+
+                    <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 flex justify-center items-center" href="#" title="Click to Open">
+                        <p class="text-sm">LENOVO IDEAPAD SLIM 5 / i5 - 13TH / 16 - 512 / Rs. 199,999/-</p>
+                    </a>
+
+                    <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 flex justify-center items-center" href="#" title="Click to Open">
+                        <p class="text-sm">HP ZBOOK FIRE FLY G8 / i7 - 11TH / 32 - 512 / Rs. 184,999/-</p>
+                    </a>
+
+                    <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 flex justify-center items-center" href="#" title="Click to Open">
+                        <p class="text-sm">HP ZBOOK FIRE FLY G7 / i5 - 10TH / 16 - 512 / Rs. 127,000/-</p>
+                    </a>
+
+                    <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 flex justify-center items-center" href="#" title="Click to Open">
+                        <p class="text-sm">HP PROBOOK 440 G8 "TIGER LAKE" / i5 - 11TH / 16 - 512 / Rs. 125,000/-</p>
+                    </a>
+
+                    <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 flex justify-center items-center" href="#" title="Click to Open">
+                        <p class="text-sm">MACBOOK PRO 2019 / i9 LATEST / 32 - 512 / Rs. 175,000/-</p>
+                    </a>
+
+                    <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 flex justify-center items-center" href="#" title="Click to Open">
+                        <p class="text-sm">MICROSOFT SURFACE 2-in-1 / i7 - 8TH / 16 - 256 / Rs. 175,000/-</p>
+                    </a>
+
+                    <!-- More Laptops Here -->
+
+                </div>
+         </div>
+
+         <!-- ========================================================================== -->
+
+         <!-- Laptops Below Rs.  50,000 /- -->
+          
+         <div class="flex flex-col">
+
+                <!-- Hidden paragraph -->
+                <div class="toggleParagraph flex flex-wrap  p-4 " >
+
+                    <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                        <p class="text-sm">2 LENOVO IDEAPAD SLIM 5 / i5 - 13TH / 16 - 512 / Rs. 199,999/-</p>
+                    </a>
+
+                    <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                        <p class="text-sm">HP ZBOOK FIRE FLY G8 / i7 - 11TH / 32 - 512 / Rs. 184,999/-</p>
+                    </a>
+
+                    <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                        <p class="text-sm">HP ZBOOK FIRE FLY G7 / i5 - 10TH / 16 - 512 / Rs. 127,000/-</p>
+                    </a>
+
+                    <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                        <p class="text-sm">HP PROBOOK 440 G8 "TIGER LAKE" / i5 - 11TH / 16 - 512 / Rs. 125,000/-</p>
+                    </a>
+
+                    <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                        <p class="text-sm">MACBOOK PRO 2019 / i9 LATEST / 32 - 512 / Rs. 175,000/-</p>
+                    </a>
+
+                    <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                        <p class="text-sm">MICROSOFT SURFACE 2-in-1 / i7 - 8TH / 16 - 256 / Rs. 175,000/-</p>
+                    </a>
+
+                    <!-- More Laptops Here -->
+
+                </div>
+         </div>
+
+         <!-- ========================================================================== -->
+
+         <!-- Laptops Below Rs.  100,000 /- -->
+         <div class="flex flex-col">
+
+            <!-- Hidden paragraph -->
+            <div class="toggleParagraph flex flex-wrap  p-4 " >
+
+                <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                    <p class="text-sm">3 LENOVO IDEAPAD SLIM 5 / i5 - 13TH / 16 - 512 / Rs. 199,999/-</p>
+                </a>
+
+                <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                    <p class="text-sm">HP ZBOOK FIRE FLY G8 / i7 - 11TH / 32 - 512 / Rs. 184,999/-</p>
+                </a>
+
+                <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                    <p class="text-sm">HP ZBOOK FIRE FLY G7 / i5 - 10TH / 16 - 512 / Rs. 127,000/-</p>
+                </a>
+
+                <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                    <p class="text-sm">HP PROBOOK 440 G8 "TIGER LAKE" / i5 - 11TH / 16 - 512 / Rs. 125,000/-</p>
+                </a>
+
+                <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                    <p class="text-sm">MACBOOK PRO 2019 / i9 LATEST / 32 - 512 / Rs. 175,000/-</p>
+                </a>
+
+                <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                    <p class="text-sm">MICROSOFT SURFACE 2-in-1 / i7 - 8TH / 16 - 256 / Rs. 175,000/-</p>
+                </a>
+
+                <!-- More Laptops Here -->
+
+            </div>
+     </div>
+
+     <!-- ========================================================================== -->
+
+         <!-- Laptops Below Rs.  200,000 /- -->
+         <div class="flex flex-col">
+
+            <!-- Hidden paragraph -->
+            <div class="toggleParagraph flex flex-wrap  p-4 " >
+
+                <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                    <p class="text-sm">4 LENOVO IDEAPAD SLIM 5 / i5 - 13TH / 16 - 512 / Rs. 199,999/-</p>
+                </a>
+
+                <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                    <p class="text-sm">HP ZBOOK FIRE FLY G8 / i7 - 11TH / 32 - 512 / Rs. 184,999/-</p>
+                </a>
+
+                <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                    <p class="text-sm">HP ZBOOK FIRE FLY G7 / i5 - 10TH / 16 - 512 / Rs. 127,000/-</p>
+                </a>
+
+                <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                    <p class="text-sm">HP PROBOOK 440 G8 "TIGER LAKE" / i5 - 11TH / 16 - 512 / Rs. 125,000/-</p>
+                </a>
+
+                <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                    <p class="text-sm">MACBOOK PRO 2019 / i9 LATEST / 32 - 512 / Rs. 175,000/-</p>
+                </a>
+
+                <a class="hover:bg-blue-300 hover:text-bgBlue p-2 rounded-full m-2 justify-center items-center" href="#" title="Click to Open">
+                    <p class="text-sm">MICROSOFT SURFACE 2-in-1 / i7 - 8TH / 16 - 256 / Rs. 175,000/-</p>
+                </a>
+
+                <!-- More Laptops Here -->
+
+            </div>
+     </div>
+
+     <hr class="border-black my-4">
+
+     <!-- ====================================== Laptops ======================================== -->
+
+     <div class="flex flex-row flex-wrap justify-evenly p-4 mb-4 ">
+        <a class="laptop hover:bg-blue-300 hover:text-bgBlue flex flex-row w-max p-4 rounded-2xl my-8 " href="#" title="Click to Open">
+            <img class="size-52" src="./imgs/laptop_pics/mac_1.png" alt="MacBook Pic">
+            <ul class="flex flex-col ml-4">
+
+                <p class="flex justify-start items-center font-bold text-2xl ">Macbook Pro 2016</p>
+
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-microchip"></i>
+                    <p class="m-2">Intel Core i7</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-memory"></i>
+                    <p class="m-2">16 GB - LPDDR3 - 2133MHz</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-hard-drive"></i>
+                    <p class="m-2">512 GB - PCIe Based SSD</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-display"></i>
+                    <p class="m-2">15.4" Retina IPS Wide Display</p>
+                </li>
+
+            </ul>
+        </a>
+
+        <!-- laptop # 2 -->
+
+        <a class="laptop hover:bg-blue-300 hover:text-bgBlue flex flex-row w-max p-4 rounded-2xl my-8 " href="#" title="CLick to Open">
+            <img class="size-52" src="./imgs/laptop_pics/mac_1.png" alt="MacBook Pic">
+            <ul class="flex flex-col ml-4">
+
+                <p class="flex justify-start items-center font-bold text-2xl ">Macbook Pro 2016</p>
+
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-microchip"></i>
+                    <p class="m-2">Intel Core i7</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-memory"></i>
+                    <p class="m-2">16 GB - LPDDR3 - 2133MHz</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-hard-drive"></i>
+                    <p class="m-2">512 GB - PCIe Based SSD</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-display"></i>
+                    <p class="m-2">15.4" Retina IPS Wide Display</p>
+                </li>
+
+            </ul>
+        </a>
+
+        
+        <!-- laptop # 3 -->
+
+        <a class="laptop hover:bg-blue-300 hover:text-bgBlue flex flex-row w-max p-4 rounded-2xl my-8 " href="#" title="CLick to Open">
+            <img class="size-52" src="./imgs/laptop_pics/mac_1.png" alt="MacBook Pic">
+            <ul class="flex flex-col ml-4">
+
+                <p class="flex justify-start items-center font-bold text-2xl ">Macbook Pro 2016</p>
+
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-microchip"></i>
+                    <p class="m-2">Intel Core i7</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-memory"></i>
+                    <p class="m-2">16 GB - LPDDR3 - 2133MHz</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-hard-drive"></i>
+                    <p class="m-2">512 GB - PCIe Based SSD</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-display"></i>
+                    <p class="m-2">15.4" Retina IPS Wide Display</p>
+                </li>
+
+            </ul>
+        </a>
+
+        
+        <!-- laptop # 4 -->
+
+        <a class="laptop hover:bg-blue-300 hover:text-bgBlue flex flex-row w-max p-4 rounded-2xl my-8 " href="#" title="CLick to Open">
+            <img class="size-52" src="./imgs/laptop_pics/mac_1.png" alt="MacBook Pic">
+            <ul class="flex flex-col ml-4">
+
+                <p class="flex justify-start items-center font-bold text-2xl ">Macbook Pro 2016</p>
+
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-microchip"></i>
+                    <p class="m-2">Intel Core i7</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-memory"></i>
+                    <p class="m-2">16 GB - LPDDR3 - 2133MHz</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-hard-drive"></i>
+                    <p class="m-2">512 GB - PCIe Based SSD</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-display"></i>
+                    <p class="m-2">15.4" Retina IPS Wide Display</p>
+                </li>
+
+            </ul>
+        </a>
+
+        
+        <!-- laptop # 5 -->
+
+        <a class="laptop hover:bg-blue-300 hover:text-bgBlue flex flex-row w-max p-4 rounded-2xl my-8 " href="#" title="CLick to Open">
+            <img class="size-52" src="./imgs/laptop_pics/mac_1.png" alt="MacBook Pic">
+            <ul class="flex flex-col ml-4">
+
+                <p class="flex justify-start items-center font-bold text-2xl ">Macbook Pro 2016</p>
+
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-microchip"></i>
+                    <p class="m-2">Intel Core i7</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-memory"></i>
+                    <p class="m-2">16 GB - LPDDR3 - 2133MHz</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-hard-drive"></i>
+                    <p class="m-2">512 GB - PCIe Based SSD</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-display"></i>
+                    <p class="m-2">15.4" Retina IPS Wide Display</p>
+                </li>
+
+            </ul>
+        </a>
+
+        
+        <!-- laptop # 6 -->
+
+        <a class="laptop hover:bg-blue-300 hover:text-bgBlue flex flex-row w-max p-4 rounded-2xl my-8 " href="#" title="CLick to Open">
+            <img class="size-52" src="./imgs/laptop_pics/mac_1.png" alt="MacBook Pic">
+            <ul class="flex flex-col ml-4">
+
+                <p class="flex justify-start items-center font-bold text-2xl ">Macbook Pro 2016</p>
+
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-microchip"></i>
+                    <p class="m-2">Intel Core i7</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-memory"></i>
+                    <p class="m-2">16 GB - LPDDR3 - 2133MHz</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-hard-drive"></i>
+                    <p class="m-2">512 GB - PCIe Based SSD</p>
+                </li>
+                <li class="flex justify-start items-center opacity-70">
+                    <i class="fa-solid fa-display"></i>
+                    <p class="m-2">15.4" Retina IPS Wide Display</p>
+                </li>
+
+            </ul>
+        </a>
+
+     </div>
+
+     <!-- Pages -->
+      <div class=" flex justify-center items-center ">
+
+        <a class="bg-blue-300 text-bgBlue px-2 m-2 rounded-md " href="#" title="Page 1">
+            <p>1</p>
+        </a>
+
+        <a class="hover:bg-blue-300 hover:text-bgBlue px-2 m-2 rounded-md " href="#" title="Page 2">
+            <p>2</p>
+        </a>
+
+        <a class="hover:bg-blue-300 hover:text-bgBlue px-2 m-2 rounded-md " href="#" title="Page 3">
+            <p>3</p>
+        </a>
+
+        <a class="hover:bg-blue-300 hover:text-bgBlue px-2 m-2 rounded-md " href="#" title="Page 4">
+            <p>4</p>
+        </a>
+
+        <a class="hover:bg-blue-300 hover:text-bgBlue px-2 m-2 rounded-md " href="#" title="Page 5">
+            <p>5</p>
+        </a>
+
+        <a class="hover:bg-blue-300 hover:text-bgBlue px-2 m-2 rounded-md " href="#" title="Page 6">
+            <p>6</p>
+        </a>
+
+        <a class="hover:bg-blue-300 hover:text-bgBlue px-2 m-2 rounded-md " href="#" title="See More">
+            <p>...</p>
+        </a>
+
+      </div>
+
+     </main>
+
+     <hr class="border-black my-4">
+
+     <!-- ======================== FOOTER =========================================-->
+
+     <footer id="footer" class="flex flex-row justify-between items-start p-4 mt-8">
+
+        <div class=" flex flex-col justify-center items-center">
+            <img class="size-32 rounded-full " src="./imgs/logo.png" alt="logo">
+            <p class=" w-64 p-2">
+                "We are committed to provide you the best & fresh in condition laptops
+                We ensure each laptop is thoroughly inspected, tested, and packaged with care. 
+                Your satisfaction and trust are our top priorities. "
+            </p>
+        </div>
+
+        <div class="flex flex-col ">
+            <h1 class="text-lg font-bold mb-2">USEFUL LINKS</h1>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="#">About Us</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="#">Terms & Conditions</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="#">Privacy Policy</a>
+        </div>
+
+        <div class="flex flex-col ">
+            <h1 class="text-lg font-bold mb-2">SOCIAL MEDIA</h1>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="#">Facebook</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="#">Twitter</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="#">Instagram</a>
+        </div>
+
+        <div class="flex flex-col">
+            <h1 class="text-lg font-bold mb-2">KNOW ABOUT CEO ?</h1>
+            <a class=" hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg text-center p-1 underline text-blue-600" href="#">Click Here</a>
+        </div>
+
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3448.405026746067!2d71.4638019741255!3d30.196985474847086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b3314cfe5069f%3A0xcc3cbdda2af3beca!2sLaptop%20Mart!5e0!3m2!1sen!2s!4v1732517224205!5m2!1sen!2s" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+     </footer>
+
+     <div id="web-end" class="flex justify-between items-center p-4 mt-8 bg-bgBlue text-white">
+        <p>&copy; Copyright By LaptopMart(Multan) 💻 Team 2024. All Rights Reserved</p>
+        <p class="flex justify-center items-center">Made with ❤️ from <img class="size-8 mx-4" src="./imgs/flag.png" alt="pak-flag"></p>
+     </div>
+
+
+<script src="./script.js"></script>        
+
+</body>
+</html>
