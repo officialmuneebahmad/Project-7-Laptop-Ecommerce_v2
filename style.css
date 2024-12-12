@@ -121,34 +121,7 @@
     }
 }
 
-/* ======================== TABLE CONTENT =============================================== */
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    padding: 2em;
-  }
-  
-  td, th {
-    border: 1px solid #212121;
-    text-align: left;
-    padding: 8px;
-    margin: .5em;
-    width: 50%;
-  }
-
-  .fa-solid{
-    margin: .5em;
-    color: royalblue;
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-  }
-  
-  .fa-cart-shopping{
-    color: #fff;
-  }
+/* ====================== DROP DOWN =============================================== */
 
 /* ====================== LOADING =============================================== */
 
@@ -195,3 +168,6 @@ table {
           .dot:not(.active) {
             opacity: 0.5;
           }
+
+/* ================================================================================= */
+

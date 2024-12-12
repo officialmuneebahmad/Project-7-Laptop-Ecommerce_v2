@@ -717,6 +717,11 @@ video {
   height: 8rem;
 }
 
+.size-40 {
+  width: 10rem;
+  height: 10rem;
+}
+
 .size-48 {
   width: 12rem;
   height: 12rem;
@@ -874,6 +879,10 @@ video {
 
 .rounded-2xl {
   border-radius: 1rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
 }
 
 .rounded-full {
@@ -1214,35 +1223,7 @@ video {
   }
 }
 
-/* ======================== TABLE CONTENT =============================================== */
-
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  padding: 2em;
-}
-
-td, th {
-  border: 1px solid #212121;
-  text-align: left;
-  padding: 8px;
-  margin: .5em;
-  width: 50%;
-}
-
-.fa-solid{
-  margin: .5em;
-  color: royalblue;
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-}
-
-.fa-cart-shopping{
-  color: #fff;
-}
+/* ====================== DROP DOWN =============================================== */
 
 /* ====================== LOADING =============================================== */
 
@@ -1291,6 +1272,12 @@ tr:nth-child(even) {
 
 .dot:not(.active) {
   opacity: 0.5;
+}
+
+/* ================================================================================= */
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
 }
 
 .hover\:border-b-2:hover {
@@ -1342,6 +1329,17 @@ tr:nth-child(even) {
   outline-offset: 2px;
 }
 
+.focus\:ring-2:focus {
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+}
+
+.focus\:ring-blue-400:focus {
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(96 165 250 / var(--tw-ring-opacity, 1));
+}
+
 .group:hover .group-hover\:fill-black {
   fill: #000;
 }
@@ -1354,3 +1352,4 @@ tr:nth-child(even) {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
+

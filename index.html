@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
+  <link rel="icon" type="image/x-icon" href="./imgs/logo.png">
   <script src="https://kit.fontawesome.com/a19de92425.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -24,7 +25,7 @@
 
      <nav id="nav-bar" class="flex p-4 pb-0">
 
-        <a id="logo" class="mx-2" href="#"><img class="size-24 rounded-full mx-2" src="./imgs/logo.png" alt="company-logo"></a>
+        <a id="logo" class="mx-2" href="#"><img class="size-24 rounded-3xl mx-2" src="./imgs/logo.png" alt="company-logo"></a>
 
         <ul id="nav-ul" class=" w-9/12 p-4 flex justify-center items-center relative">
             <!-- Home Link -->
@@ -191,8 +192,9 @@
 
         <!-- HIDDEN MENU -->
         <div id="laptops-parent">
-            <label id="laptops-label" class="hidden" for="laptops">CHOOSE FILTER</label>
-            <select class="hidden" id="laptops-menu" name="laptops">
+            <label id="laptops-label" class="hidden font-bold" for="laptops">CHOOSE FILTER</label>
+            <select class="hidden p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none hover:cursor-pointer
+            " id="laptops-menu" name="laptops">
               <option value="PREMIUM_LAPTOPS">
                 <a href="#">PREMIUM LAPTOPS</a>
               </option>
@@ -613,7 +615,7 @@
      <footer id="footer" class="flex flex-row justify-between items-start p-4 mt-8">
 
         <div class=" flex flex-col justify-center items-center">
-            <img class="size-32 rounded-full " src="./imgs/logo.png" alt="logo">
+            <img class="size-32 rounded-3xl " src="./imgs/logo.png" alt="logo">
             <p class=" w-64 p-2">
                 "We are committed to provide you the best & fresh in condition laptops
                 We ensure each laptop is thoroughly inspected, tested, and packaged with care. 
@@ -623,21 +625,26 @@
 
         <div class="flex flex-col ">
             <h1 class="text-lg font-bold mb-2">USEFUL LINKS</h1>
-            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="#">About Us</a>
-            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="#">Terms & Conditions</a>
-            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="#">Privacy Policy</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="./useful_links/about.html">About Us</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="./useful_links/terms_con.html">Terms & Conditions</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="./useful_links/pri_policy.html">Privacy Policy</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="https://wa.link/laptopmartmultan">
+                <img class="size-40" src="./imgs/QR.png" alt="QR-CODE">
+            </a>            
         </div>
 
         <div class="flex flex-col ">
             <h1 class="text-lg font-bold mb-2">SOCIAL MEDIA</h1>
-            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="#">Facebook</a>
-            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="#">Twitter</a>
-            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="#">Instagram</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="https://bit.ly/4fSH7tf">Facebook</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="https://bit.ly/3YUprGO">Twitter</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="https://bit.ly/3Vquiia">Instagram</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="https://bit.ly/4fOyxvm">TikTok</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="https://bit.ly/41ggYR3">Youtube</a>
         </div>
 
         <div class="flex flex-col">
             <h1 class="text-lg font-bold mb-2">KNOW ABOUT CEO ?</h1>
-            <a class=" hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg text-center p-1 underline text-blue-600" href="#">Click Here</a>
+            <a class=" hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg text-center p-1 underline text-blue-600" href="./useful_links/junaid_umar.html">Click Here</a>
         </div>
 
         <div>
