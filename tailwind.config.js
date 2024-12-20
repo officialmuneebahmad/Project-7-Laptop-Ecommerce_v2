@@ -5,6 +5,7 @@ module.exports = {
     "./index.html",
     "./laptops/mac/mac_2016.html",
     "./laptops/mac/mac_2016_2.html",
+    "./laptops/mac/mac_2016_3.html",
     "./laptops/mac/mac_2017.html",
     "./laptops/mac/mac_2017_2.html",
     "./laptops/mac/mac_2017_3.html",
