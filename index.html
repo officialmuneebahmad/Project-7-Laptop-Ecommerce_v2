@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
   <link href="./output.css" rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
   <link rel="icon" type="image/x-icon" href="./imgs/logo.png">
@@ -11,9 +12,9 @@
 <body>
 
     <!-- OFFER / DELIVERY ETC -->
-     <div class="flex justify-center items-center bg-black text-white py-2">
+     <div class="flex justify-center items-center bg-black text-white py-4 w-full ">
         <p class="px-4">DELIVERY SERVICE ALL OVER PAKISTAN [this site is under development ⚠️]</p>
-        <img class="size-8" src="./imgs/flag.png" alt="Pak-flag">
+        <img class="size-8 mr-2 " src="./imgs/flag.png" alt="Pak-flag">
      </div>
 
      <div class="nav-menu hidden">
@@ -79,28 +80,31 @@
 
                 <!-- HIDDEN MENU - COMPANIES -->
                 <div id="laptops-companies-parent" class="">
-                    <label id="laptops-label" class="hidden" for="laptops">CHOOSE COMPANY</label>
-                    <select class="hidden" id="laptops-menu" name="laptops">
-                      <option value="ASUS">
-                        <a href="#">ASUS</a> 
+                    <label id="laptops-label" class="hidden font-bold" for="laptops-menu">CHOOSE COMPANY</label>
+                    <select class="hidden" id="laptops-menu" name="laptops-menu">
+                      <option value="" disabled selected>
+                        COMPANY
+                      </option> 
+                      <option value="#">
+                        ASUS 
                       </option>
-                      <option value="DELL">
-                        <a href="#">DELL</a>
+                      <option value="#">
+                        DELL
                       </option>
-                      <option value="APPLE">
-                        <a href="#">APPLE</a>
+                      <option value="#">
+                        APPLE
                       </option>
-                      <option value="ACER">
-                        <a href="#">ACER</a>
+                      <option value="#">
+                        ACER
                       </option>
-                      <option value="HP">
-                        <a href="#">HP</a>
+                      <option value="#">
+                        HP
                       </option>
-                      <option value="LENOVO">
-                        <a href="#">LENOVO</a>
+                      <option value="#">
+                        LENOVO
                       </option>
-                      <option value="MICROSOFT">
-                        <a href="#">MICROSOFT</a>
+                      <option value="#">
+                        MICROSOFT
                       </option>
                     </select>
                 </div>
@@ -192,9 +196,11 @@
 
         <!-- HIDDEN MENU -->
         <div id="laptops-parent">
-            <label id="laptops-label" class="hidden font-bold" for="laptops">CHOOSE FILTER</label>
-            <select class="hidden p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-blue-400 focus:outline-none hover:cursor-pointer
-            " id="laptops-menu" name="laptops">
+            <label id="laptops-label" class="hidden font-bold" for="laptops-menu">CHOOSE FILTER</label>
+            <select class="hidden borde hover:cursor-pointer" id="laptops-menu" name="laptops-menu">
+              <option value="" disabled selected>
+                PRICE RANGE
+              </option>
               <option value="PREMIUM_LAPTOPS">
                 <a href="#">PREMIUM LAPTOPS</a>
               </option>
@@ -659,7 +665,8 @@
      </div>
 
 
-<script src="./script.js"></script>        
+<script src="./script.js"></script>   
+<script src="./navigation.js"></script>     
 
 </body>
 </html>

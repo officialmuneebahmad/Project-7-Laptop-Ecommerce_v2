@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px; /* Base font size */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
 @media (max-width: 992px){
     .nav-menu{
         display: flex;
@@ -73,17 +80,27 @@
 
     #laptops-label{
         display: flex;
+        /* border: 1px solid red; */
     }
 
     #laptops-menu{
         display: flex;
+        padding: 1em;
+        border-radius: .5em;
+        background-position: calc(100% - 25px) center;
+        appearance: none; /* Remove native arrow for customization */
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20' fill='%23000000'%3E%3Cpath d='M5.25 8.5l4.5 4.5 4.5-4.5H5.25z'/%3E%3C/svg%3E");
+        background-repeat: no-repeat;
+        background-position: 95% center; /* Adjust arrow position (closer to the left) */
+        background-size: 24px; /* Control arrow size */
     }
 
     #laptops-parent{
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 2em;
+        gap: 1em;
     }
 
     .filter{
