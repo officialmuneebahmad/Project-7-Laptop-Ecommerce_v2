@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     navbarContainer.innerHTML = `
 <!-- OFFER / DELIVERY ETC -->
      <div class="flex justify-center items-center bg-black text-white py-4 w-full ">
-        <p class="px-4">DELIVERY SERVICES ALL OVER PAKISTAN <br> [this site is under development ⚠️]</p>
+        <p class="px-4">DELIVERY SERVICES ALL OVER PAKISTAN [this site is under development ⚠️]</p>
         <img class="size-8 mr-2 " src="./imgs/flag.png" alt="Pak-flag">
      </div>
 
