@@ -15,9 +15,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
         <div class="flex flex-col px-4 text-center ">
             <h1 class="text-lg font-bold mb-2">USEFUL LINKS</h1>
-            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="./useful_links/about.html">About Us</a>
-            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="./useful_links/terms_con.html">Terms & Conditions</a>
-            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="./useful_links/pri_policy.html">Privacy Policy</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="../../useful_links/about.html">About Us</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="../../useful_links/terms_con.html">Terms & Conditions</a>
+            <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="../../useful_links/pri_policy.html">Privacy Policy</a>
             <a class="hover:bg-blue-300 hover:text-bgBlue my-1 rounded-lg p-1 text-slate-600" href="https://wa.link/laptopmartmultan">
                 <img class="size-40" src="../../imgs/QR.png" alt="QR-CODE">
             </a>            

@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <!-- OFFER / DELIVERY ETC -->
      <div class="flex justify-center items-center bg-black text-white py-2">
         <p class="px-4">DELIVERY SERVICE ALL OVER PAKISTAN [this site is under development ⚠️]</p>
-        <img class="size-8 mx-2 px-2" src="./imgs/flag.png" alt="Pak-flag">
+        <img class="size-8 mr-4 " src="./imgs/flag.png" alt="Pak-flag">
      </div>
 
      <div class="nav-menu hidden">
