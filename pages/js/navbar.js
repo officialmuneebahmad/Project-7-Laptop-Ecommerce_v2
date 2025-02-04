@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <svg id="nav-burger" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 0 24 24" width="24px" fill="#00000"><path d="M0 0h24v24H0z" fill="none"/><path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/></svg>
      </div>
 
-     <nav id="nav-bar" class="flex p-4 pb-0">
+     <nav class="flex p-4 pb-0">
 
         <a id="logo" class="mx-2" href="#"><img class="size-24 rounded-3xl mx-2" src="../../imgs/logo.png" alt="company-logo"></a>
 

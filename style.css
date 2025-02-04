@@ -6,8 +6,10 @@ body{
   margin: 0;
   padding: 0;
   font-size: 16px; /* Base font size */
-  overflow-x: hidden; /* Prevent horizontal scrolling */
+  overflow-x: hidden; 
+  /* Prevent horizontal scrolling */
 }
+
 
 @media (max-width: 992px){
     .nav-menu{

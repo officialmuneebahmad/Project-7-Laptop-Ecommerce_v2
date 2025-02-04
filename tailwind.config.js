@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./src/**/*.{html,js}", // Adjust paths to match your project structure
+    "./src/**/*.{html,js}",
+    "./*.html", "./js/**/*.js", // Adjust paths to match your project structure
     "./index.html",
     "./pages/pg2/pg2.html",
     "./laptops/mac/mac_2016.html",
