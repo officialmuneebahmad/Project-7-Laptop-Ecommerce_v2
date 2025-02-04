@@ -1,6 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "tailwindcss";
 
 body{
   margin: 0;
@@ -111,7 +112,7 @@ body{
         display: none;
     }
 
-    #laptop{
+    .laptop{
         display: flex;
         flex-direction: column;
         justify-content: center;
