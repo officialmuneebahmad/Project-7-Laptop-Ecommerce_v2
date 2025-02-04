@@ -20,8 +20,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        bgBlue: '#003F85',
-        cusBlue: '#3a659f',
+        bgBlue: '#1b1464',
+        cusBlue: '#1b1464',
       },
     },
   },
