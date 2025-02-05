@@ -22,11 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
         <ul id="nav-ul" class=" w-9/12 p-4 flex justify-center items-center relative">
             <!-- Home Link -->
-            <a class="hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 border-b-2 border-black" href="#">Home</a>
+            <a class="nav-link hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 border-b-2 " href="../../index.html">Home</a>
         
             <!-- Categories with Dropdown -->
             <div id="drop-down" class="relative group">
-                <a class="hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 flex items-center border-b-2 border-white cursor-pointer">
+                <a class="nav-link hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 flex items-center border-b-2 border-white cursor-pointer">
                     Categories
                     <!-- SVG Icon -->
                     <svg width="24px" height="24px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -48,8 +48,8 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
         
             <!-- Other Links -->
-            <a class="hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 border-b-2 border-white" href="#">Our Location</a>
-            <a class="hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 border-b-2 border-white" href="#">About Us</a>
+            <a class="nav-link hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 border-b-2 border-white" href="#">Our Location</a>
+            <a class="nav-link hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 border-b-2 border-white" href="#">About Us</a>
         </ul>
         
         <div id="help" class=" flex flex-col flex-nowrap justify-center items-center p-4 mx-2 w-3/12">

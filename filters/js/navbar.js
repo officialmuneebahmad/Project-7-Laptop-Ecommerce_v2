@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         <!-- OFFER / DELIVERY ETC -->
      <div class="flex justify-center items-center bg-black text-white py-2">
         <p class="px-4">DELIVERY SERVICE ALL OVER PAKISTAN [this site is under development ⚠️]</p>
-        <img class="size-8 mr-4 " src="./imgs/flag.png" alt="Pak-flag">
+        <img class="size-8 mr-4 " src="../../imgs/flag.png" alt="Pak-flag">
      </div>
 
      <div class="nav-menu hidden">
@@ -20,11 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
      <nav id="nav-bar" class="flex p-4 pb-0">
 
-        <a id="logo" class="mx-2" href="#"><img class="size-24 rounded-3xl mx-2" src="./imgs/logo.png" alt="company-logo"></a>
+        <a id="logo" class="mx-2" href="#"><img class="size-24 rounded-3xl mx-2" src="../../imgs/logo.png" alt="company-logo"></a>
 
         <ul id="nav-ul" class=" w-9/12 p-4 flex justify-center items-center relative">
             <!-- Home Link -->
-            <a class="nav-link hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 border-b-2 border-black " href="#">Home</a>
+            <a class="nav-link hover:border-b-zinc-950 hover:border-b-2 px-4 py-1 border-b-2 border-black " href="../../index.html">Home</a>
         
             <!-- Categories with Dropdown -->
             <div id="drop-down" class="relative group">
